@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'PT Mono', monospace;
+}
+
+h1,
+h2 {
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 30px 10px 20px 10px;
+    color: #110835;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    margin: 0;
+
+}
+
+header {
+    background-color: #88D9E6;
+}
+
+.nabidka {
+    background-color: #FFD9CE;
+    padding: 5%;
+}
+
+.nabidka_svacin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.svacinka img {
+    max-width: 100%;
+}
+
+.kontakt {
+    background-color: #8B8BAE;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.button {
+    background-color: #FFD9CE;
+    border: none;
+    color: #110835;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer a {
+    color: #110835;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #88D9E6;
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    padding: 7px;
+}
+
+/* #88D9E6 */
