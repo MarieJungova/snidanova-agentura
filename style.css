@@ -40,6 +40,7 @@ header {
 
 .svacinka img {
     max-width: 100%;
+    display: block;
 }
 
 .kontakt {
@@ -71,4 +72,11 @@ footer {
     padding: 7px;
 }
 
-/* #88D9E6 */
+.svacinka{
+    background-color: #88D9E6;
+}
+
+.svacinka img:hover{
+    opacity: 0;
+    transition: 0.3s;
+}
